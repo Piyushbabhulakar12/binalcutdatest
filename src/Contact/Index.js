@@ -50,7 +50,7 @@ const form = useRef();
 
                            <div className="form_section">
 
-                              <form autocomplete="off" ref={form} onSubmit={sendEmail}>
+                              <form autoComplete="off" ref={form} onSubmit={sendEmail}>
                               <div className="row">
                               	 <div className="col-md-1 margin_top_grid">
                               	 	<h4 className="form_text">I am</h4>

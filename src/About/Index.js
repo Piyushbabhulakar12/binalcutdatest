@@ -45,9 +45,9 @@ const Index = () => {
                 
               <h3 className="subheading mt-5"><span style={{ fontSize: '15px', marginRight: '50px' , color: '#434040' }}>What We Do</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</h3>
 <br /> <br />
-                {data.map((data) => (
+                {data.map((data , index) => (
 
-                   <div className="card_about">
+                   <div className="card_about" key={index}>
                        
                        <div className="row">
                          <div className="col-md-2">

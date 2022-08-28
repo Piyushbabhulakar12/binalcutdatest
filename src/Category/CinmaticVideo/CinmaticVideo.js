@@ -16,7 +16,7 @@ function CinmaticVideo() {
 								  
            	 	 		 		{VideoApi.map((e , id)=>{
                                             return (
-           	 	 		 		<div className="row mt-4"> 
+           	 	 		 		<div className="row mt-4" key={id}> 
            	 	 		 			 <div className="col-md-1">
            	 	 		 			 	<div className="row_align">
            	 	 		 			 		<h2 className="video_text_number">{e.id}</h2>

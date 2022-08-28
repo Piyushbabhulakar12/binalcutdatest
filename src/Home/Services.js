@@ -1,8 +1,59 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
-import { Navigation } from "swiper";
+import { Navigation , FreeMode } from "swiper";
+import "swiper/css/free-mode";
 import "swiper/css/navigation";
+
+
+const service = [
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+     {
+          title: "Lorem Ipsum",
+          subtext: "Wedding Video Editor",
+          desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+     },
+]
+
 
 function Services() {
     return (
@@ -15,11 +66,12 @@ function Services() {
 
         <div className="container gallary_margin_top">
         <Swiper
-        style={{"--swiper-navigation-color": "#FFF" , "--swiper-navigation-size": "39px" }}
+        style={{"--swiper-navigation-color": "#FFF" , "--swiper-navigation-size": "30px" ,  }}
         slidesPerView={1}
+        freeMode={true}
         spaceBetween={10}
         navigation={true} 
-        modules={[Navigation]}
+        modules={[Navigation , FreeMode]}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -37,77 +89,15 @@ function Services() {
        
         className="mySwiper"
       >
-        <SwiperSlide>
-             
-             <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
+          {service.map((data , index) => (         
+        <SwiperSlide key={index}>
+             <p className="card_para">{data.title}</p>
+             <h4 className="card_head">{data.subtext}</h4>
+             <p className="cart_title">{data.desc}</p>
         </SwiperSlide>
-        <SwiperSlide>
-
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-            
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-          
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
-        <SwiperSlide>
-             
-        <p className="card_para">Lorem Ipsum </p>
-             <h4 className="card_head">Wedding Video Editor </h4>
-             <p className="cart_title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-
-        </SwiperSlide>
+         ))}
       </Swiper>
-           
-
         </div>
-
-       
-
-
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 function Faq() {
     return (
       <div>
@@ -15,6 +16,10 @@ function Faq() {
                <div className="col-md-10 col-12">
                        
                <div className="accordion accordion-flush" id="accordionFlushExample">
+               
+
+
+               
   <div className="accordion-item">
     <h2 className="accordion-header" id="flush-headingOne">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -25,6 +30,9 @@ function Faq() {
       <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> className. This is the first item's accordion body.</div>
     </div>
   </div>
+
+
+
   <div className="accordion-item">
     <h2 className="accordion-header" id="flush-headingTwo">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">

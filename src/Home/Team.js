@@ -1,6 +1,45 @@
 import React from 'react';
 
 
+const team = [
+  {
+    img: "https://i.pinimg.com/originals/ef/08/cc/ef08cc9f9ffd9797d7ec0c02628060ed.jpg",
+    alt: "Web Designer",
+    title: "Demo Name",
+    des: "Web Designer",
+  },
+  {
+    img: "https://i.pinimg.com/originals/9b/aa/8a/9baa8ac4eb217c87c4563e418c8c37a2.jpg",
+    alt: "Web Designer",
+    title: "Demo Name",
+    des: "Web Designer",
+  },
+  {
+    img: "https://i.pinimg.com/736x/7b/4e/72/7b4e72c0347b65838583fe74004007cc.jpg",
+    alt: "Web Designer",
+    title: "Demo Name",
+    des: "Web Designer",
+  },
+  {
+    img: "https://i.pinimg.com/originals/ef/08/cc/ef08cc9f9ffd9797d7ec0c02628060ed.jpg",
+    alt: "Web Designer",
+    title: "Demo Name",
+    des: "Web Designer",
+  },
+  {
+    img: "https://i.pinimg.com/originals/9b/aa/8a/9baa8ac4eb217c87c4563e418c8c37a2.jpg",
+    alt: "Web Designer",
+    title: "Demo Name",
+    des: "Web Designer",
+  },
+  {
+    img: "https://i.pinimg.com/736x/7b/4e/72/7b4e72c0347b65838583fe74004007cc.jpg",
+    alt: "Web Designer",
+    title: "Demo Name",
+    des: "Web Designer",
+  },
+]
+
 function Team() {
   return (
     <div>
@@ -15,92 +54,24 @@ function Team() {
 
                   <div className="row">
                       
-                  <div className="col-md-4">
+                      {team.map((data , index) => (
+
+                     
+                  <div className="col-md-4" key={index}>
                     
                     <center>
                         
-                        <img alt="DATA" src="https://i.pinimg.com/originals/ef/08/cc/ef08cc9f9ffd9797d7ec0c02628060ed.jpg" className="team_img" />
+                        <img alt={data.alt} src={data.img} className="team_img" />
                     
 
-                       <h5 className="team_title">Demo Name</h5>
-                       <p className="team_des">Web Designer</p>
+                       <h5 className="team_title">{data.title}</h5>
+                       <p className="team_des">{data.des}</p>
 
 
                     </center>
       
                       </div>
-                      <div className="col-md-4">
-                         
-                      <center>
-                        
-                        <img alt="DATA" src="https://i.pinimg.com/originals/9b/aa/8a/9baa8ac4eb217c87c4563e418c8c37a2.jpg" className="team_img" />
-                        
-                        <h5 className="team_title">Demo Name</h5>
-                       <p className="team_des">Web Designer</p>
-       
-
-                    </center>
-      
-                      </div>
-                      <div className="col-md-4">
-                         
-                      <center>
-                        
-                        <img alt="DATA" src="https://i.pinimg.com/736x/7b/4e/72/7b4e72c0347b65838583fe74004007cc.jpg" className="team_img" />
-
-                       <h5 className="team_title">Demo Name</h5>
-                       <p className="team_des">Web Designer</p>     
- 
-
-                    </center>
-      
-                      </div>
-
-                  </div>
-
-                  <div className="row mt-4">
-                      
-                      <div className="col-md-4">
-                        
-                        <center>
-                            
-                            <img alt="DATA" src="https://i.pinimg.com/originals/ef/08/cc/ef08cc9f9ffd9797d7ec0c02628060ed.jpg" className="team_img" />
-                        
-    
-                           <h5 className="team_title">Demo Name</h5>
-                           <p className="team_des">Web Designer</p>
-    
-    
-                        </center>
-          
-                          </div>
-                          <div className="col-md-4">
-                             
-                          <center>
-                            
-                            <img alt="DATA" src="https://i.pinimg.com/originals/9b/aa/8a/9baa8ac4eb217c87c4563e418c8c37a2.jpg" className="team_img" />
-                            
-                            <h5 className="team_title">Demo Name</h5>
-                           <p className="team_des">Web Designer</p>
-           
-    
-                        </center>
-          
-                          </div>
-                          <div className="col-md-4">
-                             
-                          <center>
-                            
-                            <img  alt="DATA" src="https://i.pinimg.com/736x/7b/4e/72/7b4e72c0347b65838583fe74004007cc.jpg" className="team_img" />
-    
-                           <h5 className="team_title">Demo Name</h5>
-                           <p className="team_des">Web Designer</p>     
-     
-    
-                        </center>
-          
-                          </div>
-    
+                       ))}
                       </div>
 
               </div>

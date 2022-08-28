@@ -14,6 +14,7 @@ function Work() {
 
        <div id="carouselExampleControlsp" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
+   
     <div className="carousel-item active">
       
          <div className="container">
