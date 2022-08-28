@@ -13,7 +13,7 @@ function App() {
       <Menu/>
       <Routes>
         <Route path="*" exact element={<Error/>} />
-        <Route path="/" exact element={<Home/>} />
+        <Route path="/binalcutdatest" exact element={<Home/>} />
       </Routes>
       <Footer />
 
