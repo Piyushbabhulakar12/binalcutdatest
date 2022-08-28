@@ -6,7 +6,8 @@ import {  Routes, Route } from "react-router-dom";
 import Contact from "../src/Contact/Index";
 import Footer from './Component/Footer';
 import About from "../src/About/Index";
-
+import CinmaticVideo from './Category/CinmaticVideo/CinmaticVideo';
+import Cinmaticv from "./Category/CinmaticVideo/Cinmaticv";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/binalcutdatest" exact element={<Home/>} />
         <Route path="/contact-us" exact element={<Contact/>} />
         <Route path="/about-us" exact element={<About/>} />
+        <Route path="/cinmatic-video" exact element={<CinmaticVideo/>} />
+        <Route path="cinmaticv/:id" exact element={<Cinmaticv/>} />
       </Routes>
       <Footer />
 
