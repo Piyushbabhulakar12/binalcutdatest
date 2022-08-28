@@ -15,7 +15,7 @@ function Contact() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto">
         <li class="nav-item">
-          <Link class="nav-link navbar_text" to="/">Home</Link>
+          <Link class="nav-link navbar_text" to="/binalcutdatest">Home</Link>
         </li>
         <li class="nav-item">
          <Link class="nav-link navbar_text" to="/about-us">About Us</Link>
