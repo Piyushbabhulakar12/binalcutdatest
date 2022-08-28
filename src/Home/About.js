@@ -1,44 +1,46 @@
 import React from 'react';
 
 
+const about = [
+  {
+    title: "Lorem Ipsum",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+  },
+  {
+    title: "Lorem Ipsum",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+  },
+  {
+    title: "Lorem Ipsum",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+  },
+  {
+    title: "Lorem Ipsum",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+  },
+]
+
+
 function About() {
     return (
       <div>
         
 
-        <div class="container section_margin_top">
-            <h2 class="heading_text_about">About Me</h2>
+        <div className="container section_margin_top">
+            <h2 className="heading_text_about">About Me</h2>
         </div>
 
-        <div class="container mt-5 bg_color_about">
-            <div class="box_padd">
+        <div className="container mt-5 bg_color_about">
+            <div className="box_padd">
                 
-                <div class="row">
-                  <div class="col-md-6 box_padd_rwo">
-                   
-                   <h3 class="about_title_text">Lorem Ipsum </h3>
-                   <p class="about_para_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
-
+                <div className="row">
+                  {about.map((data , index) => (
+                  <div className="col-md-6 box_padd_rwo mt-5" key={index}>                   
+                   <h3 className="about_title_text">Lorem Ipsum </h3>
+                   <p className="about_para_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
                   </div>
-                  <div class="col-md-6 box_padd_rwo">
-                  <h3 class="about_title_text">Lorem Ipsum </h3>
-                   <p class="about_para_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
-                  </div>
+                    ))}
                 </div>
-
-                <div class="row mt-5">
-                  <div class="col-md-6 box_padd_rwo">
-                   
-                   <h3 class="about_title_text">Lorem Ipsum </h3>
-                   <p class="about_para_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
-
-                  </div>
-                  <div class="col-md-6 box_padd_rwo">
-                  <h3 class="about_title_text">Lorem Ipsum </h3>
-                   <p class="about_para_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
-                  </div>
-                </div>
-
             </div>
         </div>
           
