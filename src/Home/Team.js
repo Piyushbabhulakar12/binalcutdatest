@@ -3,37 +3,37 @@ import React from 'react';
 
 const team = [
   {
-    img: "https://i.pinimg.com/originals/ef/08/cc/ef08cc9f9ffd9797d7ec0c02628060ed.jpg",
+    img: "https://i.pinimg.com/736x/03/02/48/0302481e8ca81d9c44b95413900cbeb1.jpg",
+    alt: "Piyush Babhulakar",
+    title: "Piyush Babhulakar",
+    des: "Web Developer",
+  },
+  {
+    img: "https://www.meme-arsenal.com/memes/29e49cd65cce6de46382d75d1fe817a2.jpg",
+    alt: "Aniket Saluke",
+    title: "Aniket Saluke",
+    des: "Sr. Video Editor",
+  },
+  {
+    img: "https://thumbor.prod.vidiocdn.com/6HrmLj6kpf1KLd5Y_3bPgsRUMwo=/smart/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/239841/velaniavello-36ebc1.jpg",
+    alt: "Prerna",
+    title: "Prerna",
+    des: "Content Writer",
+  },
+  {
+    img:  "https://www.meme-arsenal.com/memes/29e49cd65cce6de46382d75d1fe817a2.jpg",
     alt: "Web Designer",
     title: "Demo Name",
     des: "Web Designer",
   },
   {
-    img: "https://i.pinimg.com/originals/9b/aa/8a/9baa8ac4eb217c87c4563e418c8c37a2.jpg",
+    img: "https://thumbor.prod.vidiocdn.com/6HrmLj6kpf1KLd5Y_3bPgsRUMwo=/smart/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/239841/velaniavello-36ebc1.jpg",
     alt: "Web Designer",
     title: "Demo Name",
     des: "Web Designer",
   },
   {
-    img: "https://i.pinimg.com/736x/7b/4e/72/7b4e72c0347b65838583fe74004007cc.jpg",
-    alt: "Web Designer",
-    title: "Demo Name",
-    des: "Web Designer",
-  },
-  {
-    img: "https://i.pinimg.com/originals/ef/08/cc/ef08cc9f9ffd9797d7ec0c02628060ed.jpg",
-    alt: "Web Designer",
-    title: "Demo Name",
-    des: "Web Designer",
-  },
-  {
-    img: "https://i.pinimg.com/originals/9b/aa/8a/9baa8ac4eb217c87c4563e418c8c37a2.jpg",
-    alt: "Web Designer",
-    title: "Demo Name",
-    des: "Web Designer",
-  },
-  {
-    img: "https://i.pinimg.com/736x/7b/4e/72/7b4e72c0347b65838583fe74004007cc.jpg",
+    img: "https://i.pinimg.com/736x/03/02/48/0302481e8ca81d9c44b95413900cbeb1.jpg",
     alt: "Web Designer",
     title: "Demo Name",
     des: "Web Designer",
@@ -42,9 +42,9 @@ const team = [
 
 function Team() {
   return (
-    <div>
+    <>
        
-       <div className="container section_margin_top">
+       <div className="container section_margin_top" id="team">
             <h2 className="heading_text_about">Our Team</h2>
         </div>
 
@@ -57,7 +57,7 @@ function Team() {
                       {team.map((data , index) => (
 
                      
-                  <div className="col-md-4" key={index}>
+                  <div className="col-md-4 mt-4" key={index}>
                     
                     <center>
                         
@@ -79,7 +79,7 @@ function Team() {
         </div>
 
 
-    </div>
+    </>
   );
 }
 

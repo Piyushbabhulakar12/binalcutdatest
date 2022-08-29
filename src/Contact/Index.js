@@ -74,13 +74,13 @@ const form = useRef();
                               	 	<h4 className="form_text"> at</h4>
                               	 </div>
                               	  <div className="col-md-4 margin_top_grid">
-                              	 	<input type="text" name="email" value={email} placeholder="Email Id" className="form-control form_custom"  onChange={(e) => setEmail(e.target.value)} />
+                              	 	<input type="email" name="email" value={email} placeholder="Email Id" className="form-control form_custom"  onChange={(e) => setEmail(e.target.value)} />
                               	 </div>
                               	  <div className="col-md-3 margin_top_grid">
                               	 	<h4 className="form_text">Or Just give our</h4>
                               	 </div>
                               	  <div className="col-md-4 margin_top_grid">
-                              	 	<input type="text" name="phone" value={phone} placeholder="Phone" className="form-control form_custom"  onChange={(e) => setPhone(e.target.value)} />
+                              	 	<input type="number" name="phone" value={phone} placeholder="Phone" className="form-control form_custom"  onChange={(e) => setPhone(e.target.value)} />
                               	 </div>
                               	 <div className="col-12 margin_top_grid">
                               	 	<button type="submit" className="btn form_btn ">Send</button>

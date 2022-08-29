@@ -21,7 +21,7 @@ function Contact() {
          <Link className="nav-link navbar_text" to="/about-us">About Us</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link navbar_text" href="#">Team</a>
+          <a className="nav-link navbar_text" href="#team">Team</a>
         </li>
         <li className="nav-item">
           <a className="nav-link navbar_text" href="#">Work</a>
