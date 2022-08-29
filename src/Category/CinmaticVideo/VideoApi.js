@@ -9,14 +9,13 @@ import img8 from "./Image/img8.png";
 import img9 from "./Image/img8.png";
 import img10 from "./Image/img8.png";
 
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kJtxI-9dI88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 const VideoApi = [
  {
    id: '01',
    url: `${img1}`,
-   videourl: 'https://drive.google.com/file/d/1QR3hNyIQ9dF5apaAVpWNH6QyWMXeXEea/preview',
-   title: ' Rameshwari & Rugved Teaser',
+   videourl: 'https://www.youtube.com/embed/2no2O3URWvI',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
    creater: 'Cinematic Videos'
  },
@@ -24,7 +23,7 @@ const VideoApi = [
    id: '02',
    url: `${img2}`,
    title: 'Lorem Ipsum is simply dummy text of the printing',
-   videourl: 'https://drive.google.com/file/d/1Var3G-erMSbbS_FyBS_xVw6afCrSDZd6/preview',
+   videourl: 'https://www.youtube.com/embed/rUuQrezE-Yg',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
    creater: 'Cinematic Videos'
  },
@@ -32,33 +31,33 @@ const VideoApi = [
    id: '03',
    url: `${img3}`,
    title: 'Lorem Ipsum is simply dummy text of the printing',
-   videourl: 'https://drive.google.com/file/d/1iWkvSoJWWRyDf0rrZ9htj7B_3NjGAF_X/preview',
+   videourl: 'https://www.youtube.com/embed/ITC7lZUctgY',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Corporate Videos'
  },
   {
    id: '04',
    url: `${img4}`,
-   title: 'Diana & Angello Trailer',
-   videourl: 'https://drive.google.com/file/d/11B8av5xlOiOVevwp0ksib9fFIyxb-7lG/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/AyCmEpJ0QEo',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Corporate Videos'
  },
  {
    id: '05',
    url: `${img5}`,
-   title: 'Aarti & Mihir Trailer',
-   videourl: 'https://drive.google.com/file/d/18U-aBH_RHQnI4j2f9waxsMZTmEWASpBD/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/8S_BtWZe548',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Corporate Videos'
  },
  {
    id: '06',
    url: `${img6}`,
-   title: 'Payal & Sumeet Teaser',
-   videourl: 'https://drive.google.com/file/d/1ETUXUN3n2D8WVQMPKrHIVrJAsJiaF6A2/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/kJtxI-9dI88',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Corporate Videos'
  },
  {
    id: '07',
@@ -66,7 +65,7 @@ const VideoApi = [
    title: 'Payal & Sumeet Trailer',
    videourl: 'https://drive.google.com/file/d/1jItSXL8JuizPLT8Wy6dhbWu1jDyy_UoG/preview',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Cinematic dsVideos'
  },
  {
    id: '08',
@@ -74,7 +73,7 @@ const VideoApi = [
    title: 'Rohit & Priyanka Wedding Trailer',
    videourl: 'https://drive.google.com/file/d/1jfBkmkagy3SNwSQxgFyexW5TpZjvIJKA/preview',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Cinematic dsVideos'
  },
  {
    id: '09',
@@ -82,7 +81,7 @@ const VideoApi = [
    title: 'Apurva & Sushant',
    videourl: 'https://drive.google.com/file/d/1KCPcu50he6QNjorXEa50RY4sVRhkV4vK/preview',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Cinematic dsVideos'
  },
  {
    id: '10',
@@ -90,7 +89,7 @@ const VideoApi = [
    title: 'Neha & Swapnil Trailer ',
    videourl: 'https://drive.google.com/file/d/1owfrSG649O0fODGpbIwD5fbyLB3IsUhK/preview',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic Videos'
+   creater: 'Cinematic dsVideos'
  },
 ]
 export default VideoApi;

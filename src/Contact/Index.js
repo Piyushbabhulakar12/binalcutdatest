@@ -42,10 +42,10 @@ const form = useRef();
                            
                           <div className="contact_section">
                           	 <h4 className="contact_heading">Contact</h4>
-                           <p className="contact_des">+91 484-5556-44</p>
+                           <p className="contact_des"><a href="tel:+919987253771" rel="noreferrer"  className="contact_des">+91 998 - 7253 - 771</a></p>
 
                            <h4 className="contact_heading">E-Mail</h4>
-                           <p className="contact_des">demo@gmail.com</p>
+                           <p className="contact_des"><a href="https://mail.google.com/mail/u/0/?fs=1&to=inquiry.finalcutproduction@gmail.com&tf=cm" target="_blank" className="contact_des">inquiry.finalcutproduction@gmail.com</a></p>
                           </div>
 
                            <div className="form_section">

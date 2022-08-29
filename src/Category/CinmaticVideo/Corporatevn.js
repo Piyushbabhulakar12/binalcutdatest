@@ -1,18 +1,16 @@
+import VideoApi from "./VideoApi";
 import React from "react";
-import VideoApi from "./VideoApi"; 
 
-
-const Cinmaticn = () => {
-    return(
+const Corporatevn = () => {
+    return (
         <>
-        
-        <div className="container mt-4">
+         <div className="container mt-4">
            	 <div className="rows">
            	 	 <div className="col-md-12">
-           	 	 	<h3 className="hero_heading">Cinematic Videos</h3>
+           	 	 	<h3 className="hero_heading">Corporate Videos</h3>
 
                     {VideoApi.map((data , index) => {
-                        if(data.creater === 'Cinematic Videos')
+                        if(data.creater === 'Corporate Videos')
                         {
                          return (
                             <React.Fragment key={index}>
@@ -27,8 +25,7 @@ const Cinmaticn = () => {
                     </div>
                     </div>
                     </div>
-
         </>
     )
 }
-export default Cinmaticn;
+export default Corporatevn;

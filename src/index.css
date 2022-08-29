@@ -52,6 +52,36 @@ code {
   color: #000;
   font-size: 21px;
 }
+.menu_icon:focus
+{
+  color: #000;
+  border: none;
+  font-size: 21px;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.contact_des
+{
+  color: #212529;
+}
+
+.contact_des:hover
+{
+  color: #212529;
+}
+
+.footer_anchor
+{
+  color: #fff;
+}
+.footer_anchor:hover
+{
+  color: #fff;
+}
 .menu_siderbar
 {
   min-width: 60%;

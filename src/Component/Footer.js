@@ -51,7 +51,7 @@ function Footer() {
                       </div>
                       <div className="col-md-3">
                              <b>For Any Questions</b>
-                             <p className="mt-3">finalcut@gmail.com</p>
+                             <p className="mt-3"><a href="https://mail.google.com/mail/u/0/?fs=1&to=inquiry.finalcutproduction@gmail.com&tf=cm" rel="noreferrer" target="_blank" className="footer_anchor">inquiry.finalcutproduction@gmail.com</a></p>
                              <p className="mt-2">Telegram</p>
                              <p className="mt-2">Whatsapp</p>
                       </div>
