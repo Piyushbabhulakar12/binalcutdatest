@@ -15,7 +15,7 @@ const Cinmaticn = () => {
                          return (
                             <React.Fragment key={index}>
                             	 <iframe  src={data.videourl} width="100%" height="550" allow="autoplay" className="iframe_video mt-5"></iframe>
-                                 <h3 class="mt-5">{data.title}</h3>
+                                 <h3 className="mt-5">{data.title}</h3>
                             </React.Fragment>
                          )
                     })}

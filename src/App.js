@@ -9,6 +9,7 @@ import About from "../src/About/Index";
 import CinmaticVideo from './Category/CinmaticVideo/CinmaticVideo';
 import Cinmaticv from "./Category/CinmaticVideo/Cinmaticv";
 import Cinmaticn from './Category/CinmaticVideo/Cinmaticvn';
+import WhatsApp from './Component/WhatsApp';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/cinmatic-video" exact element={<CinmaticVideo/>} />
         <Route path="cinmaticv/:id" exact element={<Cinmaticv/>} />
       </Routes>
+      <WhatsApp />
       <Footer />
 
     </div>

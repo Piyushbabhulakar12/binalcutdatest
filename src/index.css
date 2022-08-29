@@ -234,6 +234,24 @@ code {
   font-weight: 600;
 }
 
+.sticky_btn
+{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25D366;
+  color: #fff;
+  z-index: 100;
+}
+.sticky_btn:hover
+{
+  color: #25D366;
+}
+.sticky_btn:focus
+{
+  color: #25D366;
+}
+
 .section_margin_top
 {
   margin-top: 50px;
