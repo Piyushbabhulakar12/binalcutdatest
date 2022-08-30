@@ -16,7 +16,7 @@ const Cinmaticn = () => {
                         {
                          return (
                             <React.Fragment key={index}>
-                            	 <iframe  src={data.videourl} width="100%" height="600" allow="autoplay" className="iframe_video mt-5"></iframe>
+                            	 <iframe loading="lazy" src={data.videourl} width="100%" height="600" allow="autoplay" className="iframe_video mt-5"></iframe>
                                  
                             </React.Fragment>
                          )

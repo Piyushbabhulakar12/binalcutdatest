@@ -9,7 +9,7 @@ import img8 from "./Image/img8.png";
 import img9 from "./Image/img8.png";
 import img10 from "./Image/img8.png";
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kJtxI-9dI88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 const VideoApi = [
  {
    id: '01',
@@ -62,34 +62,74 @@ const VideoApi = [
  {
    id: '07',
    url: `${img7}`,
-   title: 'Payal & Sumeet Trailer',
-   videourl: 'https://drive.google.com/file/d/1jItSXL8JuizPLT8Wy6dhbWu1jDyy_UoG/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/gRN93CBZJgg',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic dsVideos'
+   creater: 'Wedding Videos'
  },
  {
    id: '08',
    url: `${img8}`,
-   title: 'Rohit & Priyanka Wedding Trailer',
-   videourl: 'https://drive.google.com/file/d/1jfBkmkagy3SNwSQxgFyexW5TpZjvIJKA/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/EPJRHg-4rTg',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic dsVideos'
+   creater: 'Wedding Videos'
  },
  {
    id: '09',
    url: `${img9}`,
-   title: 'Apurva & Sushant',
-   videourl: 'https://drive.google.com/file/d/1KCPcu50he6QNjorXEa50RY4sVRhkV4vK/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/7PVQmBUo8ls',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic dsVideos'
+   creater: 'Wedding Videos'
  },
  {
    id: '10',
    url: `${img10}`,
-   title: 'Neha & Swapnil Trailer ',
-   videourl: 'https://drive.google.com/file/d/1owfrSG649O0fODGpbIwD5fbyLB3IsUhK/preview',
+   title: 'Lorem Ipsum is simply dummy text of the printing',
+   videourl: 'https://www.youtube.com/embed/wsbdiYRQERc',
    redirect: 'Lorem Ipsum is simply dummy text of the printing',
-   creater: 'Cinematic dsVideos'
+   creater: 'Wedding Videos'
  },
+ {
+  id: '11',
+  url: `${img10}`,
+  title: 'Lorem Ipsum is simply dummy text of the printing',
+  videourl: 'https://www.youtube.com/embed/V9OI57h6akI',
+  redirect: 'Lorem Ipsum is simply dummy text of the printing',
+  creater: 'Wedding Videos'
+},
+{
+  id: '12',
+  url: `${img10}`,
+  title: 'Lorem Ipsum is simply dummy text of the printing',
+  videourl: 'https://www.youtube.com/embed/sLIfeVZ8HXM',
+  redirect: 'Lorem Ipsum is simply dummy text of the printing',
+  creater: 'Wedding Videos'
+},
+{
+  id: '13',
+  url: `${img10}`,
+  title: 'Lorem Ipsum is simply dummy text of the printing',
+  videourl: 'https://www.youtube.com/embed/8HVNcJETpNU',
+  redirect: 'Lorem Ipsum is simply dummy text of the printing',
+  creater: 'Wedding Videos'
+},
+{
+  id: '14',
+  url: `${img10}`,
+  title: 'Lorem Ipsum is simply dummy text of the printing',
+  videourl: 'https://www.youtube.com/embed/8hcKe03FDRo',
+  redirect: 'Lorem Ipsum is simply dummy text of the printing',
+  creater: 'Wedding Videos'
+},
+{
+  id: '15',
+  url: `${img10}`,
+  title: 'Lorem Ipsum is simply dummy text of the printing',
+  videourl: 'https://www.youtube.com/embed/WEGRfaGcS1U',
+  redirect: 'Lorem Ipsum is simply dummy text of the printing',
+  creater: 'Wedding Videos'
+},
 ]
 export default VideoApi;

@@ -11,6 +11,7 @@ import Cinmaticv from "./Category/CinmaticVideo/Cinmaticv";
 import Cinmaticn from './Category/CinmaticVideo/Cinmaticvn';
 import WhatsApp from './Component/WhatsApp';
 import Corporatevn from './Category/CinmaticVideo/Corporatevn';
+import Weddingvn from './Category/CinmaticVideo/Weddingvn';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about-us" exact element={<About/>} />
         <Route path="/cinmatic" exact element={<Cinmaticn/>} />
         <Route path="/corporate" exact element={<Corporatevn/>} />
+        <Route path="/wedding" exact element={<Weddingvn/>} />
         <Route path="/cinmatic-video" exact element={<CinmaticVideo/>} />
         <Route path="cinmaticv/:id" exact element={<Cinmaticv/>} />
       </Routes>

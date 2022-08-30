@@ -15,6 +15,12 @@ const menu = [
     url: "/corporate",
   },
   {
+    title: "Wedding Videos",
+    subdes: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
+    des: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing LoremIpsum is simply dummy text of the printing Lorem Ipsum",
+    url: "/wedding",
+  },
+  {
     title: "Traditional Videos",
     subdes: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing",
     des: "Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing Lorem Ipsum is simply dummy text of the printing LoremIpsum is simply dummy text of the printing Lorem Ipsum",
