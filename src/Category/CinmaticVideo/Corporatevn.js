@@ -15,7 +15,7 @@ const Corporatevn = () => {
                          return (
                             <React.Fragment key={index}>
                             	 <iframe  src={data.videourl} width="100%" height="600" allow="autoplay" className="iframe_video mt-5"></iframe>
-                                 <h5 className="mt-5">{data.title}</h5>
+                               
                             </React.Fragment>
                          )
                         }

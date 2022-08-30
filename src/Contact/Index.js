@@ -7,18 +7,18 @@ function Index() {
    const [message, setMessage] = useState("");
    const [email, setEmail] = useState("");
    const [phone, setPhone] = useState("");
-
-
+   
 const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+	
 
     emailjs.sendForm('service_adcd7nn', 'template_r4krh7i', form.current, 'TdtEf6ojRcI3WAk5-')
       .then((result) => {
-          console.log(result.text);
+		console.log(result);
       }, (error) => {
-          console.log(error.text);
+		console.log(error);
       });
      setName("");
      setMessage("");
@@ -85,6 +85,8 @@ const form = useRef();
                               	 <div className="col-12 margin_top_grid">
                               	 	<button type="submit" className="btn form_btn ">Send</button>
                               	 </div>
+
+								  
                               </div>
 </form>
 

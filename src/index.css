@@ -546,7 +546,18 @@ margin-top: 30px;
 }
 .form_btn:hover
 {
-  color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.floating_alert
+{
+  width: 30%;
+  display: flex;
+  justify-items: center;
+  position: fixed;
+  bottom: 10px;
+  transform: translate(calc(50vw - 130%));
 }
 
 .form_custom

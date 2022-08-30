@@ -71,7 +71,7 @@ function Contact() {
     
            
 {menu.map((data , index) => (
-<>
+<React.Fragment key={index}>
            <div className="container mt-5" key={index}>
                <div className="row">
                    <div className="col-md-5">
@@ -93,7 +93,7 @@ function Contact() {
            </div>
 
 <hr></hr>
-</>
+</React.Fragment>
 ))}
 
   </div>
