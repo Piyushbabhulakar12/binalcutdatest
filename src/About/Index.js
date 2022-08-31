@@ -50,7 +50,7 @@ const Index = () => {
            <div className="row">
               <div className="col-12">
                 
-              <h3 className="subheading mt-5"><span style={{ fontSize: '15px', marginRight: '50px' , color: '#434040' }}>What We Do</span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</h3>
+              <h3 className="subheading mt-5"><span style={{ fontSize: '15px', marginRight: '50px' , color: '#434040' }}>What We Do</span>We are a team of creative heads all working towards designing your memory in the most spectacular way. From shooting to editing and the final delivery is curated finely, with attention to detail, to provide you with the best you'll find around. We have partnered with clients who have appreciated us for our quality and also for our timely delivery. Don't trust us? Book your order now and experience it like never before. Call us on:</h3>
 <br /> <br />
                 {data.map((data , index) => (
 
@@ -86,6 +86,22 @@ const Index = () => {
               </div>
            </div>
          </div>
+
+
+
+         <div className="container mt-5">
+           <div className="row">
+              <div className="col-3">
+                <img src="https://www.uwbec.org/content/2021/RFP/rfp%20reviewer%20pic.PNG" className="aboutus_img" />
+                </div>
+                <div className="col-9">
+                  <h3 className="headinaboutus mt-5">Akshay Hendre</h3>
+                  <span>Chief Editor</span>
+                  <p className="paraaboutus">Akshay Hendre Chief Editor Skilled into editing and cinematography. Shaped this talents in the 10 years of his experience, working in corporate and also as a freelancer. Delivered 100+ shoots with the final cut before time. Clients know him as a happy-go-lucky human full of joy. He brings the same in his work and delivers it with uber class quality</p>
+                </div>
+            </div>
+         </div>
+
 
           </div>
 

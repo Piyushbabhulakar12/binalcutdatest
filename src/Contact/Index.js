@@ -37,7 +37,7 @@ const form = useRef();
 
                     <div className="row m-auto justify-content-center">
                     	<div className="col-8">
-                    		<h3 className="hero_heading mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</h3>
+                    		<h3 className="footer_hero_heading mt-5">We are a team of creative heads all working towards designing your memory in the most spectacular way. From shooting to editing and the final delivery is curated finely, with attention to detail, to provide you with the best you'll find around. We have partnered with clients who have appreciated us for our quality and also for our timely delivery. Don't trust us? Book your order now and experience it like never before. Call us on:</h3>
 
                            
                           <div className="contact_section">
