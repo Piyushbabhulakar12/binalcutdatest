@@ -20,7 +20,7 @@ function App() {
       <Menu/>
       <Routes>
         <Route path="*" exact element={<Error/>} />
-        <Route path="/binalcutdatest" exact element={<Home/>} />
+        <Route path="/" exact element={<Home/>} />
         <Route path="/contact-us" exact element={<Contact/>} />
         <Route path="/about-us" exact element={<About/>} />
         <Route path="/cinmatic" exact element={<Cinmaticn/>} />

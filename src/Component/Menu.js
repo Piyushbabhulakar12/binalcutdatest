@@ -44,7 +44,7 @@ function Contact() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto">
         <li className="nav-item">
-          <Link className="nav-link navbar_text" to="/binalcutdatest">Home</Link>
+          <Link className="nav-link navbar_text" to="/">Home</Link>
         </li>
         <li className="nav-item">
          <Link className="nav-link navbar_text" to="/about-us">About Us</Link>
