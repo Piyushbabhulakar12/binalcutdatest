@@ -229,7 +229,21 @@ a
   padding-bottom: 50px;
   color: #fff;
   width: 300px;
+  min-height: 100%;
 }
+.service_card
+{
+  background-color: #1A1A1A;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  width: 300px;
+  min-height: 100%;
+}
+
 .card_slider
 {
   background-color: red;
@@ -248,7 +262,7 @@ a
 .cart_title
 {
   color: #C0C0C0;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 8px;
   line-height: 1.6;
   margin-bottom: 0px;

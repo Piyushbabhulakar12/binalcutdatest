@@ -12,9 +12,9 @@ function Index() {
   return (
     <>
         <HeroSlider />
+        <Services />
         <About />
         <TextSlider />
-        <Services />
         <Work />
         <Process />
         <Team />
