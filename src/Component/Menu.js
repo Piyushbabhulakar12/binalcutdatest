@@ -107,6 +107,21 @@ function Contact() {
 
 
 
+<div className='container'>
+   <div className='row'>
+      <div className='col-12' style={{ display: 'flex' , justifyContent: 'center' }}>
+        <div className='box_mobilemenu'>
+          
+        <Link className="nav-link navbar_text" to="/"><i class="bi bi-house" style={{ color: '#fff' , fontSize: '20px'  }}></i></Link>
+        <Link className="nav-link navbar_text" to="/about-us"><i class="bi bi-camera-video" style={{ color: '#fff' , fontSize: '20px'  }}></i></Link>
+        <Link className="nav-link navbar_text" to="/"><i class="bi bi-image" style={{ color: '#fff' , fontSize: '20px'  }}></i></Link>
+        <Link className="nav-link navbar_text" to="/contact-us"><i class="bi bi-person" style={{ color: '#fff' , fontSize: '20px'  }}></i></Link>
+        </div>
+      </div>
+   </div>
+</div>
+
+
      
 
     </div>

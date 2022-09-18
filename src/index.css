@@ -240,7 +240,7 @@ a
   padding-top: 50px;
   padding-bottom: 50px;
   color: #fff;
-  width: 300px;
+  width: 100%;
   min-height: 100%;
 }
 
@@ -698,6 +698,28 @@ width: 100%;
 object-fit: contain;
 }
 
+.box_mobilemenu
+{
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 10px;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+  z-index: 1000;
+  display: none;
+}
+.icon_mobile
+{
+  font-size: 33px;
+  color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
 
    .mobile_menu_btn
@@ -731,7 +753,7 @@ object-fit: contain;
   }
   .box_padd_rwo
   {
-    padding: 20px;
+    padding: 40px;
   }
   .mobile_margin_remove
   {
@@ -757,4 +779,38 @@ object-fit: contain;
   {
     height: 250px;
   }
+.service_card
+  {
+   margin-top: 15px;
+  }
+  .about_title_text
+{
+  font-size: 23px;
+  font-weight: 700;
+}
+.about_para_text
+{
+  font-size: 16px;
+  margin-top: 17px;
+}
+.aboutus_img
+{
+  height: 200px;
+  width: 200px;
+}
+.paraaboutus
+{
+  font-size: 16px;
+}
+
+.sticky_btn
+{ 
+    bottom: 90px;
+    right: 30px;
+}
+.box_mobilemenu
+{
+  display: flex;
+}
+
 }

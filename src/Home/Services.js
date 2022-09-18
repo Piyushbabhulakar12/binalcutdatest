@@ -43,7 +43,7 @@ function Services() {
         <div className="container gallary_margin_top">
           <div className='row'>
           {service.map((data , index) => ( 
-             <div className='col-md-3'>
+             <div className='col-md-3' key={index}>
                  <div className='service_card'>
                  <p className="card_para">{data.title}</p>
              <h4 className="card_head">{data.subtext}</h4>

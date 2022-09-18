@@ -12,8 +12,8 @@ function About() {
 
 
 
-        <div className="container mt-5 bg_color_about">
-            <div className="box_padd">
+        <div className="container mt-5">
+            <div className="box_padd bg_color_about">
                 
                 <div className="row">
                   <div className="col-md-12 box_padd_rwo">                   
