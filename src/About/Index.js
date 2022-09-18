@@ -89,18 +89,7 @@ const Index = () => {
 
 
 
-         <div className="container mt-5">
-           <div className="row">
-              <div className="col-3">
-                <img src="https://www.uwbec.org/content/2021/RFP/rfp%20reviewer%20pic.PNG" className="aboutus_img" />
-                </div>
-                <div className="col-9">
-                  <h3 className="headinaboutus mt-5">Akshay Hendre</h3>
-                  <span>Chief Editor</span>
-                  <p className="paraaboutus">Akshay Hendre Chief Editor Skilled into editing and cinematography. Shaped this talents in the 10 years of his experience, working in corporate and also as a freelancer. Delivered 100+ shoots with the final cut before time. Clients know him as a happy-go-lucky human full of joy. He brings the same in his work and delivers it with uber class quality</p>
-                </div>
-            </div>
-         </div>
+        
 
 
           </div>

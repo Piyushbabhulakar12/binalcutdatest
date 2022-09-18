@@ -819,7 +819,26 @@ object-fit: contain;
 }
 .footer_hero_heading
 {
-  font-size: 20px;
+  font-size: 18px;
+}
+.subheading
+{
+  font-size: 18px;
+}
+.card_about
+{
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about_cardid
+{
+  font-size: 22px;
+}
+.about_cardname
+{
+  font-size: 23px;
 }
 
 }
