@@ -812,5 +812,10 @@ object-fit: contain;
 {
   display: flex;
 }
+.para_bold
+{
+  padding-left: 00px;
+  padding-right: 00px;
+}
 
 }
