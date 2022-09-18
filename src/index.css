@@ -817,5 +817,9 @@ object-fit: contain;
   padding-left: 00px;
   padding-right: 00px;
 }
+.footer_hero_heading
+{
+  font-size: 20px;
+}
 
 }

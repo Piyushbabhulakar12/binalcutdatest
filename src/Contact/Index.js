@@ -36,7 +36,7 @@ const form = useRef();
       	 			<h3 className="hero_heading">Get In Touch</h3>
 
                     <div className="row m-auto justify-content-center">
-                    	<div className="col-8">
+                    	<div className="col-md-8 col-12">
                     		<h3 className="footer_hero_heading mt-5">We are a team of creative heads all working towards designing your memory in the most spectacular way. From shooting to editing and the final delivery is curated finely, with attention to detail, to provide you with the best you'll find around. We have partnered with clients who have appreciated us for our quality and also for our timely delivery. Don't trust us? Book your order now and experience it like never before. Call us on:</h3>
 
                            
