@@ -14,7 +14,7 @@ function Footer() {
                 <div className="container">
                    <div className="row">
                       <div className="col-md-3">
-                            <h2 className="footer_logo">Final Cut</h2>
+                            <h2 className="footer_logo">Videod Dity</h2>
                       </div>
                       <div className="col-md-3 col-6 mt-3">
                              <b>About</b>
@@ -73,7 +73,7 @@ function Footer() {
             <div className="container mt-5">
                <div className="row">
                   <div className="col-12">
-<center>                             <p className="mt-3">&copy; Finalcut Productions All Right reserved. </p></center>
+<center>                             <p className="mt-3">&copy; Videod Dity Productions All Right reserved. </p></center>
                   </div>
                </div>
             </div>
