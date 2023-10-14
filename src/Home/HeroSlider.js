@@ -20,7 +20,7 @@ function HeroSlider() {
                </div>
             <div className="carousel-item">
 
-            <video src={video2} width="100%" height="600" autoPlay={"autoplay"} muted loop className="video_fit" />
+            <video src={video1} width="100%" height="600" autoPlay={"autoplay"} muted loop className="video_fit" />
 
             </div>
             <div className="carousel-item">
