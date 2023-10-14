@@ -39,7 +39,7 @@ function Contact() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container-fluid">
-    <a className="navbar-brand" rel="noreferrer" href="#">Final Cut</a>
+    <a className="navbar-brand" rel="noreferrer" href="#">Videod Dity</a>
     <button className="btn menu_icon mobile_menu_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa fa-bars" aria-hidden="true"></i></button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto">
@@ -70,7 +70,7 @@ function Contact() {
 
 <div className="offcanvas offcanvas-end menu_siderbar" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div className="offcanvas-header">
-    <h5 className="offcanvas-title logo_bold" id="offcanvasExampleLabel">Final Cut</h5>
+    <h5 className="offcanvas-title logo_bold" id="offcanvasExampleLabel">Videod Dity</h5>
     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body">
