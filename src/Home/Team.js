@@ -1,5 +1,5 @@
 import React from 'react';
-
+import imag1 from "../Assets/Image/AS_01986.jpg";
 
 const team = [
   {
@@ -54,7 +54,7 @@ function Team() {
         <div className="container mt-5">
            <div className="row">
               <div className="col-md-3 col-12">
-                <img src="https://www.uwbec.org/content/2021/RFP/rfp%20reviewer%20pic.PNG" className="aboutus_img" />
+                <img src={imag1} className="aboutus_img" />
                 </div>
                 <div className="col-md-9 col-12">
                   <h3 className="headinaboutus">Akshay Hendre</h3>
