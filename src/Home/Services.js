@@ -8,24 +8,24 @@ import "swiper/css/navigation";
 
 const service = [
      {
-          title: "Final Cut Productions",
+          title: "Videoddity Productions",
           subtext: "Photo shoot",
-          desc: "Stable hands on the camera with a vision with clarity; that's exactly what makes our photoshoots stand out in the market full of photographers. We mainly specialise into weddings, baby shower, corporate events, candids and birthdays.",
+          desc: "At Videoddity, we believe that every moment is worth capturing, and our photography services are dedicated to preserving those moments with creativity and skill. Whether you're looking to update your personal photo album or create eye-catching visuals for your brand, our photoshoot services are tailored to meet your unique needs.",
      },
      {
-          title: "Final Cut Productions",
-          subtext: "Video shoot",
-          desc: "With 10+ years of experience into shooting videos, the cinematographer of our chief videographer/ editor has delivered over 100+ shoots with the final cut. His hands on camera is a work of miracle.",
+          title: "Videoddity Productions",
+          subtext: "Cinematography",
+          desc: "At Videoddity, we believe that the essence of cinematography lies in the power of visual storytelling. We work closely with you to understand your vision and objectives, ensuring that every frame we capture aligns with your brand, message, and goals.          ",
      },
      {
-          title: "Final Cut Productions",
+          title: "Videoddity Productions",
           subtext: "Corporate shoot",
-          desc: "Our corporate shoots include any corporate event including leisure, sports and conferences. The subtle essence of a corporate shoot in its decency and that's how we like to keep it.",
+          desc: "At Videoddity, we understand the significance of corporate video content in today's digital landscape. Our corporate video shoot services are designed to help businesses and organizations convey their message, engage their audience, and leave a lasting impression.",
      },
      {
-          title: "Final Cut Productions",
+          title: "Videoddity Productions",
           subtext: "Video editing",
-          desc: "Video editing is the real game. Here, along with the after process of video editing and reaching the final cut, we also strive towards delivering the project on the same day itself. Cool na?",
+          desc: "Our video editing team is dedicated to excellence in storytelling through visuals. We blend creativity, precision, and a keen understanding of pacing and composition to create exceptional cinematic narratives. Whether it's a feature film, a documentary, or a short commercial, we're committed to delivering results that engage and inspire.",
      },
      
 ]

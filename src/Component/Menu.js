@@ -70,7 +70,7 @@ function Contact() {
 
 <div className="offcanvas offcanvas-end menu_siderbar" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div className="offcanvas-header">
-    <h5 className="offcanvas-title logo_bold" id="offcanvasExampleLabel">Videod Dity</h5>
+    <h5 className="offcanvas-title logo_bold" id="offcanvasExampleLabel">Videoddity</h5>
     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body">

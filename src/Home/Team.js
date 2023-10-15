@@ -4,14 +4,14 @@ import React from 'react';
 const team = [
   {
     img: "https://i.pinimg.com/736x/03/02/48/0302481e8ca81d9c44b95413900cbeb1.jpg",
-    alt: "Piyush Babhulakar",
-    title: "Piyush Babhulakar",
+    alt: "Piyush",
+    title: "Piyush",
     des: "Web Developer",
   },
   {
     img: "https://www.meme-arsenal.com/memes/29e49cd65cce6de46382d75d1fe817a2.jpg",
-    alt: "Aniket Saluke",
-    title: "Aniket Saluke",
+    alt: "Aniket",
+    title: "Aniket",
     des: "Sr. Video Editor",
   },
   {
@@ -22,21 +22,21 @@ const team = [
   },
   {
     img:  "https://www.meme-arsenal.com/memes/29e49cd65cce6de46382d75d1fe817a2.jpg",
-    alt: "Web Designer",
-    title: "Demo Name",
-    des: "Web Designer",
+    alt: "Ashish",
+    title: "Ashish",
+    des: "Sr. Video Editor",
   },
   {
-    img: "https://thumbor.prod.vidiocdn.com/6HrmLj6kpf1KLd5Y_3bPgsRUMwo=/smart/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/239841/velaniavello-36ebc1.jpg",
-    alt: "Web Designer",
-    title: "Demo Name",
-    des: "Web Designer",
+    img: "https://i.imgur.com/Lis8Ps1.jpg",
+    alt: "Cinematography",
+    title: "Kiran",
+    des: "Cinematography",
   },
   {
     img: "https://i.pinimg.com/736x/03/02/48/0302481e8ca81d9c44b95413900cbeb1.jpg",
-    alt: "Web Designer",
-    title: "Demo Name",
-    des: "Web Designer",
+    alt: "Social Media",
+    title: "Unknown",
+    des: "Social Media",
   },
 ]
 
@@ -57,9 +57,18 @@ function Team() {
                 <img src="https://www.uwbec.org/content/2021/RFP/rfp%20reviewer%20pic.PNG" className="aboutus_img" />
                 </div>
                 <div className="col-md-9 col-12">
-                  <h3 className="headinaboutus mt-5">Akshay Hendre</h3>
+                  <h3 className="headinaboutus">Akshay Hendre</h3>
                   <span>Chief Editor</span>
-                  <p className="paraaboutus">Akshay Hendre Chief Editor Skilled into editing and cinematography. Shaped this talents in the 10 years of his experience, working in corporate and also as a freelancer. Delivered 100+ shoots with the final cut before time. Clients know him as a happy-go-lucky human full of joy. He brings the same in his work and delivers it with uber class quality</p>
+                  <p className="paraaboutus">Hello, I'm Akshay Hendre, and I'm thrilled to welcome you to Videoddity. As the owner and the creative force behind this venture, I wanted to share a bit about my journey and what drives me in the world of visual storytelling.</p>
+                  <b>A Passion for Visual Storytelling:</b>
+                  <p className="paraaboutus">Ever since I can remember, I've been captivated by the power of moving images. It's this fascination that led me to a profound journey into videography and cinematography. The ability to tell stories through visuals, to capture moments in time and transform them into captivating narratives, is a journey I hold dear.</p>
+                 <b>Over a Decade of Dedication:</b>
+                 <p className="paraaboutus">My journey began over 12 years ago, and I've dedicated myself to mastering the art and science of video editing and cinematography. Each year has been a step forward, filled with learning, creative exploration, and an unwavering commitment to excellence.
+</p>
+<b>Mastery of the Craft:
+</b>
+                 <p className="paraaboutus">From feature films to commercials, documentaries to short films, each project I've had the privilege to work on has added to the rich tapestry of my portfolio. It's my firm belief that the essence of cinematography is in the power of storytelling. My focus is to create visuals that resonate, engage, and leave a lasting impression.
+</p>
                 </div>
             </div>
          </div>
