@@ -15,8 +15,8 @@ function Index() {
         <Services />
         <About />
         <TextSlider />
-        <Work />
-        <Process />
+        {/* <Work /> */}
+        {/* <Process /> */}
         <Team />
         <Faq />
     </>
