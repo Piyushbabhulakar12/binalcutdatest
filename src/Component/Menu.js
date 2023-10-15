@@ -39,7 +39,7 @@ function Contact() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container-fluid">
-    <a className="navbar-brand" rel="noreferrer" href="#">Videod Dity</a>
+    <a className="navbar-brand" rel="noreferrer" href="#">Videoddity</a>
     <button className="btn menu_icon mobile_menu_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa fa-bars" aria-hidden="true"></i></button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto">
