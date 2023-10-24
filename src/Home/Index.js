@@ -7,12 +7,14 @@ import Services from './Services.js';
 import Team from './Team.js';
 import TextSlider from './TestSlider.js';
 import Work from './Work.js';
+import SliderModern from './SliderModern.js';
 
 function Index() {
   return (
     <>
         <HeroSlider />
         <Services />
+        <SliderModern />
         <About />
         <TextSlider />
         {/* <Work /> */}
