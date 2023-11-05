@@ -1,39 +1,43 @@
 import React from 'react';
 import imag1 from "../Assets/Image/AS_01986.jpg";
+import imag2 from "../Assets/Image/Lis8Ps1-removebg-preview.png";
+import imag3 from "../Assets/Image/velaniavello-36ebc1-removebg-preview.png";
+import imag4 from "../Assets/Image/0302481e8ca81d9c44b95413900cbeb1-removebg-preview.png";
+
 
 const team = [
   {
-    img: "https://o.remove.bg/downloads/3b5ebb4b-a28d-4fa1-9d92-8c2235473e91/0302481e8ca81d9c44b95413900cbeb1-removebg-preview.png",
+    img: imag4,
     alt: "Piyush",
     title: "Piyush",
     des: "Web Developer",
   },
   {
-    img: "https://o.remove.bg/downloads/29d0ba41-784a-4917-b1d7-a9b9452eb3f2/Lis8Ps1-removebg-preview.png",
+    img: imag2,
     alt: "Aniket",
     title: "Aniket",
     des: "Sr. Video Editor",
   },
   {
-    img: "https://o.remove.bg/downloads/acd03d83-e3f9-4d3f-810d-bbef39c37ecd/velaniavello-36ebc1-removebg-preview.png",
+    img: imag3, 
     alt: "Prerna",
     title: "Prerna",
     des: "Content Writer",
   },
   {
-    img:  "https://o.remove.bg/downloads/29d0ba41-784a-4917-b1d7-a9b9452eb3f2/Lis8Ps1-removebg-preview.png",
+    img: imag2,
     alt: "Ashish",
     title: "Ashish",
     des: "Sr. Video Editor",
   },
   {
-    img: "https://o.remove.bg/downloads/541fa421-9efe-4fe8-98ed-86d3be88fc59/Lis8Ps1-removebg-preview.png",
+    img: imag2,
     alt: "Cinematography",
     title: "Kiran",
     des: "Cinematography",
   },
   {
-    img: "https://o.remove.bg/downloads/acd03d83-e3f9-4d3f-810d-bbef39c37ecd/velaniavello-36ebc1-removebg-preview.png",
+    img: imag3,
     alt: "Social Media",
     title: "Aditi",
     des: "Social Media",
