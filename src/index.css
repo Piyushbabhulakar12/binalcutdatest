@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, #1c1c1d, #1b1c1d, #191c1d, #191c1b, #1b1c19);
 }
 
 code {
@@ -42,19 +43,28 @@ code {
   font-weight: 500;
   margin-right: 30px;
   margin-left: 30px;
-  color: #000000;
+  color: #696969;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
 }
 .menu_icon
 {
-  color: #000;
+  color: #696969;
   font-size: 21px;
+}
+.menu_icon:hover
+{
+  color: #ffffff;
+  border: none;
+}
+.menu_icon:active
+{
+  border: none;
 }
 .menu_icon:focus
 {
-  color: #000;
+  color: #ffffff;
   border: none;
   font-size: 21px;
 }
@@ -66,12 +76,12 @@ a
 
 .contact_des
 {
-  color: #212529;
+  color: #8d8d8d;
 }
 
 .contact_des:hover
 {
-  color: #212529;
+  color: #fff;
 }
 
 .footer_anchor
@@ -85,6 +95,7 @@ a
 .menu_siderbar
 {
   min-width: 60%;
+  background-color: #272626;
 }
 .btn:active,
 .btn:focus,
@@ -95,9 +106,14 @@ a
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+.close_btn
+{
+  color: #fff;
+}
 .logo_bold
 {
   font-weight: 600;
+  color: #fff;
 }
 
 .font_400
@@ -106,6 +122,7 @@ a
 }
 .font_600
 {
+  color: #fff;
   font-weight: 600;
 }
 .font_700
@@ -115,7 +132,7 @@ a
 .paragraph_text
 {
   font-size: 12px;
-  color: #3F3F3F;
+  color: #d3d3d3;
   font-weight: 500;
 }
 .btn_spas
@@ -190,6 +207,10 @@ a
   position: relative;
   z-index: 1;
 }
+.modal-content
+{
+  background-color: rgb(29, 29, 29);
+}
 .box_flex
 {
   display: flex;
@@ -201,9 +222,9 @@ a
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 600;
-  color: #fff;
+  color: #08080800; 
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(0 0 0 / 30%);
+  -webkit-text-stroke-color: rgba(172, 172, 172, 0.233);
   position: relative;
     left: -97%;
 }
@@ -270,13 +291,15 @@ a
 
 .video_fit
 {
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .heading_text_about
 {
   font-weight: 600;
   font-size: 40px;
+  color: #fff;
+  text-align: center;
 }
 
 .sticky_btn
@@ -310,6 +333,7 @@ a
 {
   font-size: 20px;
   margin-top: 17px;
+  color: #8d8d8d;
 }
 
 .box_padd_rwo
@@ -320,7 +344,7 @@ a
 
 .bg_color_about
 {
-  background-color: #000;
+  background-color: #121212;
   padding-top: 70px;
   padding-bottom: 70px;
   padding-right: 70px;
@@ -447,6 +471,7 @@ margin-top: 30px;
 .team_title
 {
   font-weight: 600;
+  color: #8d8d8d;
 }
 
 .accordion-button:focus {
@@ -484,23 +509,45 @@ margin-top: 30px;
   padding-top: 50px;
   padding-bottom: 0px;
 }
+.team_des
+{
+  color: #8d8d8d;
+}
+.accordion-button
+{
+  background-color: #1c1c1d;
+  color: #fff;
+}
+.accordion-item
+{
+  background-color: #1c1c1d;
+  color: #fff;
+}
+.accordion-button:not(.collapsed)
+{
+  background-color: #1c1c1d;
+  color: #fff;
+}
 .hero_heading
 {
   font-size: 30px;
   font-weight: 800;
   line-height: 1.4;
+  color: #ffff;
 }
 .headinaboutus
 {
   font-size: 30px;
   font-weight: 800;
   line-height: 1.4;
+  color: #8d8d8d;
 }
 
 .paraaboutus
 {
   font-size: 20px;
   margin-top: 10px;
+  color: #8d8d8d;
 }
 
 .aboutus_img
@@ -516,6 +563,7 @@ margin-top: 30px;
   font-size: 25px;
   font-weight: 800;
   line-height: 1.6;
+  color: #8d8d8d;
 }
 
 .subheading
@@ -563,6 +611,7 @@ margin-top: 30px;
   margin-top: 10px;
   font-weight: 800;
   font-size: 20px;
+  color: #8d8d8d;
 }
 .contact_section
 {
@@ -574,6 +623,7 @@ margin-top: 30px;
   font-weight: 800;
   margin-top: 5px;
   font-size: 20px;
+  color: #8d8d8d;
 }
 .margin_top_grid
 {
@@ -609,13 +659,19 @@ margin-top: 30px;
      border: none;
      border-bottom: 1px solid gray;
      border-radius: 0px;
-
+     background-color: #1c1c1d00; 
+     color: #8d8d8d;
+     
 }
 .form_custom:focus
 {
   box-shadow: none;
-  border-bottom-color: #000;
+  border-bottom-color: #1c1c1d;
+  background-color: #1c1c1d00;
+  color: #8d8d8d;
 }
+
+
 .row_align
 {
   margin-top: 66px;
@@ -684,6 +740,7 @@ a{
   padding-right: 20px;
   float: right;
   margin-top: 16px;
+  color: #8d8d8d;
 }
 
 .error_page_text
@@ -788,6 +845,7 @@ object-fit: contain;
 {
   font-size: 23px;
   font-weight: 700;
+  color: #8d8d8d;
 }
 .about_para_text
 {
@@ -825,6 +883,7 @@ object-fit: contain;
 .subheading
 {
   font-size: 18px;
+  color: #8d8d8d;
 }
 .card_about
 {
@@ -836,6 +895,7 @@ object-fit: contain;
 .about_cardid
 {
   font-size: 22px;
+  color: #8d8d8d;
 }
 .about_cardname
 {

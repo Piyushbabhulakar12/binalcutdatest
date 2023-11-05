@@ -7,7 +7,7 @@ function About() {
         
 
         <div className="container section_margin_top">
-            <h2 className="heading_text_about">About Us</h2>
+            <h2 className="heading_text_about"  style={{ marginTop: '100px' }}>About Us</h2>
         </div>
 
 

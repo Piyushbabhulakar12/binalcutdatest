@@ -3,37 +3,37 @@ import imag1 from "../Assets/Image/AS_01986.jpg";
 
 const team = [
   {
-    img: "https://i.pinimg.com/736x/03/02/48/0302481e8ca81d9c44b95413900cbeb1.jpg",
+    img: "https://o.remove.bg/downloads/3b5ebb4b-a28d-4fa1-9d92-8c2235473e91/0302481e8ca81d9c44b95413900cbeb1-removebg-preview.png",
     alt: "Piyush",
     title: "Piyush",
     des: "Web Developer",
   },
   {
-    img: "https://i.imgur.com/Lis8Ps1.jpg",
+    img: "https://o.remove.bg/downloads/29d0ba41-784a-4917-b1d7-a9b9452eb3f2/Lis8Ps1-removebg-preview.png",
     alt: "Aniket",
     title: "Aniket",
     des: "Sr. Video Editor",
   },
   {
-    img: "https://thumbor.prod.vidiocdn.com/6HrmLj6kpf1KLd5Y_3bPgsRUMwo=/smart/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/239841/velaniavello-36ebc1.jpg",
+    img: "https://o.remove.bg/downloads/acd03d83-e3f9-4d3f-810d-bbef39c37ecd/velaniavello-36ebc1-removebg-preview.png",
     alt: "Prerna",
     title: "Prerna",
     des: "Content Writer",
   },
   {
-    img:  "https://i.imgur.com/Lis8Ps1.jpg",
+    img:  "https://o.remove.bg/downloads/29d0ba41-784a-4917-b1d7-a9b9452eb3f2/Lis8Ps1-removebg-preview.png",
     alt: "Ashish",
     title: "Ashish",
     des: "Sr. Video Editor",
   },
   {
-    img: "https://i.imgur.com/Lis8Ps1.jpg",
+    img: "https://o.remove.bg/downloads/541fa421-9efe-4fe8-98ed-86d3be88fc59/Lis8Ps1-removebg-preview.png",
     alt: "Cinematography",
     title: "Kiran",
     des: "Cinematography",
   },
   {
-    img: "https://thumbor.prod.vidiocdn.com/6HrmLj6kpf1KLd5Y_3bPgsRUMwo=/smart/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/239841/velaniavello-36ebc1.jpg",
+    img: "https://o.remove.bg/downloads/acd03d83-e3f9-4d3f-810d-bbef39c37ecd/velaniavello-36ebc1-removebg-preview.png",
     alt: "Social Media",
     title: "Aditi",
     des: "Social Media",
@@ -58,14 +58,14 @@ function Team() {
                 </div>
                 <div className="col-md-9 col-12">
                   <h3 className="headinaboutus">Akshay Hendre</h3>
-                  <span>Chief Editor</span>
+                  <span style={{ color: '#8d8d8d' }}>Chief Editor</span>
                   <p className="paraaboutus">Hello, I'm Akshay Hendre, and I'm thrilled to welcome you to Videoddity. As the owner and the creative force behind this venture, I wanted to share a bit about my journey and what drives me in the world of visual storytelling.</p>
-                  <b>A Passion for Visual Storytelling:</b>
+                  <b style={{ color: '#8d8d8d' }}>A Passion for Visual Storytelling:</b>
                   <p className="paraaboutus">Ever since I can remember, I've been captivated by the power of moving images. It's this fascination that led me to a profound journey into videography and cinematography. The ability to tell stories through visuals, to capture moments in time and transform them into captivating narratives, is a journey I hold dear.</p>
-                 <b>Over a Decade of Dedication:</b>
+                 <b style={{ color: '#8d8d8d' }}>Over a Decade of Dedication:</b>
                  <p className="paraaboutus">My journey began over 12 years ago, and I've dedicated myself to mastering the art and science of video editing and cinematography. Each year has been a step forward, filled with learning, creative exploration, and an unwavering commitment to excellence.
 </p>
-<b>Mastery of the Craft:
+<b style={{ color: '#8d8d8d' }}>Mastery of the Craft:
 </b>
                  <p className="paraaboutus">From feature films to commercials, documentaries to short films, each project I've had the privilege to work on has added to the rich tapestry of my portfolio. It's my firm belief that the essence of cinematography is in the power of storytelling. My focus is to create visuals that resonate, engage, and leave a lasting impression.
 </p>

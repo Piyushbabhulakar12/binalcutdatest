@@ -20,7 +20,7 @@ class SliderModern extends Component {
     config: config.slow,  
     showModal: false,
     modalContent: null,
-    autoScrollInterval: 9000,
+    autoScrollInterval: 12000,
   };
 
   slides = [

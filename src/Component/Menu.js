@@ -37,7 +37,7 @@ const menu = [
 function Contact() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-dark">
   <div className="container-fluid">
     <a className="navbar-brand" rel="noreferrer" href="#">Videoddity</a>
     <button className="btn menu_icon mobile_menu_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="fa fa-bars" aria-hidden="true"></i></button>

@@ -50,7 +50,7 @@ const Index = () => {
            <div className="row">
               <div className="col-12">
                 
-              <h3 className="subheading mt-5"><span style={{ fontSize: '15px', marginRight: '50px' , color: '#434040' }}>What We Do</span>We are a team of creative heads all working towards designing your memory in the most spectacular way. From shooting to editing and the final delivery is curated finely, with attention to detail, to provide you with the best you'll find around. We have partnered with clients who have appreciated us for our quality and also for our timely delivery. Don't trust us? Book your order now and experience it like never before. Call us on:</h3>
+              <h3 className="subheading mt-5" style={{ color: '#8d8d8d' }}><span style={{ fontSize: '15px', marginRight: '50px' , color: '#8d8d8d' }}>What We Do</span>We are a team of creative heads all working towards designing your memory in the most spectacular way. From shooting to editing and the final delivery is curated finely, with attention to detail, to provide you with the best you'll find around. We have partnered with clients who have appreciated us for our quality and also for our timely delivery. Don't trust us? Book your order now and experience it like never before. Call us on:</h3>
 <br /> <br />
                 {data.map((data , index) => (
 
@@ -59,17 +59,17 @@ const Index = () => {
                        <div className="row">
                          <div className="col-md-2">
                           
-                          <h5 className="about_cardid">{data.id}</h5>
+                          <h5 className="about_cardid" style={{ color: '#8d8d8d' }}>{data.id}</h5>
 
                          </div>
                          <div className="col-md-5">
                           
-                          <h2 className="about_cardname"> {data.title} </h2>
+                          <h2 className="about_cardname" style={{ color: '#8d8d8d' }}> {data.title} </h2>
  
                          </div>
                          <div className="col-md-5">
                           
-                          <p className="about_carddes">{data.des}</p>
+                          <p className="about_carddes" style={{ color: '#8d8d8d' }}>{data.des}</p>
 
                           <Link to={data.link}><button className="btn btn_custom_knomorebtn">Know More About Project</button></Link>
 
