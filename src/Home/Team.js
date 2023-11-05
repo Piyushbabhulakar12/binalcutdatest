@@ -9,7 +9,7 @@ const team = [
     des: "Web Developer",
   },
   {
-    img: "https://www.meme-arsenal.com/memes/29e49cd65cce6de46382d75d1fe817a2.jpg",
+    img: "https://i.imgur.com/Lis8Ps1.jpg",
     alt: "Aniket",
     title: "Aniket",
     des: "Sr. Video Editor",
@@ -21,7 +21,7 @@ const team = [
     des: "Content Writer",
   },
   {
-    img:  "https://www.meme-arsenal.com/memes/29e49cd65cce6de46382d75d1fe817a2.jpg",
+    img:  "https://i.imgur.com/Lis8Ps1.jpg",
     alt: "Ashish",
     title: "Ashish",
     des: "Sr. Video Editor",
@@ -33,9 +33,9 @@ const team = [
     des: "Cinematography",
   },
   {
-    img: "https://i.pinimg.com/736x/03/02/48/0302481e8ca81d9c44b95413900cbeb1.jpg",
+    img: "https://thumbor.prod.vidiocdn.com/6HrmLj6kpf1KLd5Y_3bPgsRUMwo=/smart/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/239841/velaniavello-36ebc1.jpg",
     alt: "Social Media",
-    title: "Unknown",
+    title: "Aditi",
     des: "Social Media",
   },
 ]
