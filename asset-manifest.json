@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f81460cb.css",
-    "main.js": "/static/js/main.b4c161e4.js",
+    "main.js": "/static/js/main.1c11a22f.js",
     "static/js/787.a89c9946.chunk.js": "/static/js/787.a89c9946.chunk.js",
     "static/media/Motohom  TEASER 1.mp4": "/static/media/Motohom  TEASER 1.09890e71a2cada238e60.mp4",
     "static/media/bg_video.mp4": "/static/media/bg_video.2f3df3600e3cf18b75b8.mp4",
@@ -15,14 +15,17 @@
     "static/media/img7.png": "/static/media/img7.fd6d3528a99dadd328f4.png",
     "static/media/img2.png": "/static/media/img2.7bcb76b9f11cab8e9551.png",
     "static/media/AS_01986.jpg": "/static/media/AS_01986.5fcc3bd2d7c88ba9505e.jpg",
+    "static/media/Lis8Ps1-removebg-preview.png": "/static/media/Lis8Ps1-removebg-preview.851aadafed14feeae925.png",
+    "static/media/-removebg-preview.png": "/static/media/0302481e8ca81d9c44b95413900cbeb1-removebg-preview.c31abdd91676242fb13b.png",
+    "static/media/velaniavello-36ebc1-removebg-preview.png": "/static/media/velaniavello-36ebc1-removebg-preview.9e6613455cbf2f6a4352.png",
     "static/media/human.png": "/static/media/human.622d91968a132fde4f24.png",
     "index.html": "/index.html",
     "main.f81460cb.css.map": "/static/css/main.f81460cb.css.map",
-    "main.b4c161e4.js.map": "/static/js/main.b4c161e4.js.map",
+    "main.1c11a22f.js.map": "/static/js/main.1c11a22f.js.map",
     "787.a89c9946.chunk.js.map": "/static/js/787.a89c9946.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f81460cb.css",
-    "static/js/main.b4c161e4.js"
+    "static/js/main.1c11a22f.js"
   ]
 }
