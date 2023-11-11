@@ -97,6 +97,21 @@ a
   min-width: 60%;
   background-color: #272626;
 }
+.get_in_touch_btn
+{
+  color: #fff;
+  border-color: #fff;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.get_in_touch_btn:hover
+{
+  color: #fff;
+  border-color: #fff;
+}
+
 .btn:active,
 .btn:focus,
 .btn.active,

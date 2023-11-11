@@ -52,6 +52,12 @@ function Services() {
              </div>
           ))}
           </div>
+
+          <div className='mt-5'>
+            <center>
+         <a target='_blank' href='https://wa.me/9987253771'> <button type="submit" className="btn btn-lg get_in_touch_btn">Get In Touch</button></a>
+          </center>
+          </div>
           
         {/* <Swiper
         style={{"--swiper-navigation-color": "#FFF" , "--swiper-navigation-size": "30px" ,  }}
